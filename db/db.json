@@ -73,13 +73,6 @@
       "categoria": "Doces",
       "data": "2025-03-28",
       "imagem": "assets/img/biscoito.jpg"
-    },
-    {
-      "id": "6493",
-      "titulo": "Chocolate Quente",
-      "descricao": "ola",
-      "imagem": "",
-      "categoria": "Doces"
     }
   ]
 }
