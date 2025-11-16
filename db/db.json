@@ -1,5 +1,15 @@
 {
   "receitas": [
+     {
+       "id": "1",
+      "titulo": "Strogonoff de Frango",
+      "descricao": "Saboroso, rápido e perfeito para o almoço do dia a dia.",
+      "conteudo": "Ingredientes:\n- 300g de peito de frango picado\n- 1 colher de sopa de manteiga\n- 1/2 cebola picada\n- 1 dente de alho picado\n- 2 colheres de sopa de ketchup\n- 1 colher de sopa de mostarda\n- 1/2 caixinha de creme de leite\n- Sal e pimenta a gosto\n\nModo de preparo:\n1. Tempere o frango com sal e pimenta.\n2. Em uma panela, derreta a manteiga e doure a cebola e o alho.\n3. Adicione o frango picado e refogue até dourar.\n4. Acrescente o ketchup e a mostarda e misture bem.\n5. Reduza o fogo e adicione o creme de leite, mexendo até ficar cremoso.\n6. Cozinhe por mais 2 minutos e desligue.\n\nAcompanhamento:\nSirva com arroz branco e batata palha.",
+      "categoria": "Salgados",
+      "data": "2025-03-29",
+      "imagem": "assets/img/strogonoff.jpg"
+    },
+
     {
       "id": "2",
       "titulo": "Bolo de Banana",
@@ -9,6 +19,16 @@
       "data": "2025-03-29",
       "imagem": "assets/img/bbanana.jpg"
     },
+    {
+      "id": "3",
+      "titulo": "Almôndegas Caseiras",
+      "descricao": "Fáceis de fazer, suculentas e perfeitas para o almoço.",
+      "conteudo": "Ingredientes:\n- 300g de carne moída\n- 1 ovo\n- 2 colheres de sopa de farinha de rosca (ou aveia)\n- 1 dente de alho picado\n- 1/2 cebola picada\n- Sal e pimenta a gosto\n- 1 lata de molho de tomate\n\nModo de preparo:\n1. Em uma tigela, misture a carne moída, o ovo, a farinha de rosca, o alho, a cebola, o sal e a pimenta.\n2. Amasse tudo até formar uma massa homogênea.\n3. Modele bolinhas pequenas com as mãos.\n4. Em uma panela, aqueça um fio de óleo e doure as almôndegas por todos os lados.\n5. Adicione o molho de tomate e deixe cozinhar por 10 minutos com a panela tampada.\n6. Ajuste o sal e desligue.\n\nAcompanhamento:\nSirva com arroz branco, macarrão ou purê de batatas.",
+      "categoria": "Salgados",
+      "data": "2025-03-29",
+      "imagem": "assets/img/almondegas.jpg"
+    },
+
     {
       "id": "4",
       "titulo": "Coxinha fit",
