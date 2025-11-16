@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+
+            <img src="assets/img/logoo.jpg" class="logo navbar-brand" alt="Imagem logo">
+
+            <!-- Botão hambúrger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarReceitas"
+                aria-controls="navbarReceitas" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links  menu-->
+            <div class="collapse navbar-collapse" id="navbarReceitas">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="receita/receita.html">Receitas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-danger" href="cadastro_receitas.html">Cadastrar receita</a>
+                    </li>
+                </ul>
+
+                <!-- Pesquisa -->
+                <form class="d-flex" action="resultados.html" method="get">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <div class="container my-4">
+        <div class="d-flex justify-content-center" id="Carrosel">
+
+            <div id="carouselExampleCaptions" class="carousel slide w-75">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/logoo.jpg" class="d-block w-100" alt="Cozinha 1"
+                            style="max-height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Aqui você encontra receitas</h5>
+                            <p>deliciosas e práticas para o seu dia a dia.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/coxin.jpg" class="d-block w-100" alt="Cozinha 2"
+                            style="max-height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Receita Especial</h5>
+                            <p>Rápida, saudável e irresistível!</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/sardinha.jpg" class="d-block w-100" alt="Cozinha 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Receita Especial </h5>
+                            <p>Perfeita para impressionar sua família.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/bbanana.jpg" class="d-block w-100" alt="Cozinha 4"
+                            style="max-height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Receita Especial </h5>
+                            <p>Perfeita para impressionar sua família.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Receitas cards -->
+    <main class="container mb-5">
+        <h2 class="fw-bold text-success mb-4">Receitas em Destaque</h2>
+        <div class="receitas row g-4">
+        </div>
+    </main>
+
+    <!--Informações-->
+
+    <div class="container mt-5">
+        <h4 class="fw-bold">Informações do(a) Aluno(a)</h4>
+        <hr>
+
+        <div class="row mt-3">
+            <div class="col-md-8">
+                <h6 class="fw-bold dec-titulo">Sobre</h6>
+                <p>
+                    O projeto tem como objetivo apresentar receitas simples e deliciosas, utilizando tecnologias como
+                    HTML, CSS, Bootstrap e JavaScript para uma experiência interativa e responsiva.
+                </p>
+
+            </div>
+
+            <div class="col-md-4">
+                <h6 class="fw-bold dec-titulo">Autoria</h6>
+                <div class="d-flex align-items-start mb-3">
+                    <div class="p-autoria">
+                        <p>Aluno:Samira Vitoria da Silva Fraga</p>
+                        <p>Curso:Sistemas de Informação</p>
+                        <p>Turma:Manhã</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer text-white py-4 mt-5" style="background-color: #4caf50;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md mb-2">
+                    <p class="mb-0">&copy; 2025 Receitas | Todos os direitos reservados</p>
+                </div>
+                <div class="col-md mb-2">
+                    <p class="mb-0"><a href="#" class="text-white text-decoration-underline">Termos de Uso</a></p>
+                </div>
+                <div class="col-md mb-2">
+                    <p class="mb-0">
+                        <a href="#" class="text-white me-2">Instagram</a> |
+                        <a href="#" class="text-white ms-2">YouTube</a>
+                    </p>
+                </div>
+                <div class="col-md mb-2">
+                    <p class="mb-0">Contato: contato@receitas.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="assets/scripts/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: #f1efe9;
+}
+
+.navbar {
+    background-color: #f4b400;
+}
+
+.carousel-inner img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+#carouselExampleCaptions {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.card-group {
+    margin: 10px;
+    gap: 20px;
+    display: flex;
+    height: 22rem;
+}
+
+.card-img-top {
+    flex-wrap: wrap;
+    height: 200px;
+    gap: 30px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.card {
+    padding: 0px;
+    margin: 20px;
+}
+
+.dec-titulo {
+    color: rgb(92, 214, 92);
+}
+
+.p-autoria {
+    line-height: 10px;
+}
+
+.card-text {
+    color: #f4b400;
+}
+
+.card-title {
+    color: #2e7d32;
+}
+
+.card-body {
+    color: rgb(241, 237, 230);
+}
+
+.logo {
+    width: 100px;
+}

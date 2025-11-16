@@ -1,18 +1,65 @@
 {
-  "usuarios": [
+  "receitas": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "2",
+      "titulo": "Bolo de Banana",
+      "descricao": "Prático para comer no dia a dia (fácil e saudável).",
+      "conteudo": "Ingredientes:\n- 1/2 banana\n- 1 ovo\n- 2 colheres de sopa de farinha de aveia\n\nModo de preparo:\n1. Amasse a banana.\n2. Adicione o ovo e misture muito bem.\n3. Adicione 2 colheres de sopa de farinha de aveia.\n4. Coloque uma pitada de canela (a gosto) e um fio de mel para adoçar.\n5. Misture tudo e finalize com uma pitada de fermento.\n6. Leve ao micro-ondas por 2 minutos.\n\nCobertura:\nSe preferir, adicione mel, canela e use a outra metade da banana em cima.",
+      "categoria": "Doces",
+      "data": "2025-03-29",
+      "imagem": "assets/img/bbanana.jpg"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "4",
+      "titulo": "Coxinha fit",
+      "descricao": "Deliciosa e prática para quem quer comer algo saudável.",
+      "conteudo": "Ingredientes:\n- 300 g de batata inglesa cozida\n- 150 g de peito de frango cozido\n- 5 g de queijo para o recheio de cada coxinha\n\nModo de preparo:\n1. Depois de cozidas, amasse as batatas e acrescente o peito de frango desfiado.\n2. Misture bem e faça uma bolinha.\n3. Abra, coloque o queijo e feche, modelando em formato de coxinha.\n4. Leve por 20 minutos na airfryer ou até dourar.",
+      "categoria": "Salgados",
+      "data": "2025-03-28",
+      "imagem": "assets/img/coxin.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "Torta de liquidificador",
+      "descricao": "Prática e saborosa para fazer de lanche à noite.",
+      "conteudo": "Ingredientes:\n- 2 xícaras (chá) de farinha de trigo\n- 2 ovos\n- 1 xícara (chá) de leite\n- 1 xícara (chá) de azeite\n- 1/2 xícara (chá) de queijo ralado\n- 1 colher (sopa) de fermento em pó\n\nRecheio:\n- 4 colheres (sopa) de azeite\n- 2 dentes de alho picados\n- 1 cebola picada\n- 2 tomates picados\n- 1/2 xícara (chá) de milho verde\n- 1 colher (chá) de sal\n- 1/2 colher (chá) de pimenta-do-reino\n- 2 latas de sardinha picadas\n\nModo de preparo:\n1. No liquidificador, bata os ovos, o leite, o azeite e o queijo ralado até obter uma massa homogênea.\n2. Acrescente a farinha e, por último, o fermento.\n3. Faça o recheio refogando alho, cebola, tomate e milho; depois adicione a sardinha.\n4. Monte alternando camadas de massa e recheio, finalize com queijo e leve ao forno a 180°C por 40 minutos.",
+      "categoria": "Salgados",
+      "data": "2025-03-28",
+      "imagem": "assets/img/sardinha.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Mousse de leite em pó",
+      "descricao": "Delicioso para a sobremesa de domingo.",
+      "conteudo": "Ingredientes:\n- 1 lata de leite condensado (395 g)\n- 1 caixa de creme de leite (200 g)\n- 2 colheres de sopa de leite em pó\n- 1 colher de manteiga\n- 200 g de chantilly\n\nGanache:\n- 200 g de chocolate meio amargo\n- 1 caixa de creme de leite (200 g)\n\nModo de preparo:\n1. Misture manteiga, leite condensado, creme de leite e leite em pó e leve ao fogo médio até engrossar.\n2. Deixe esfriar e misture delicadamente o chantilly.\n3. Prepare a ganache misturando chocolate derretido com creme de leite.\n4. Monte em camadas e leve à geladeira por 4 horas.",
+      "categoria": "Doces",
+      "data": "2025-03-28",
+      "imagem": "assets/img/mousseLeite.jpg"
+    },
+    {
+      "id": "7",
+      "titulo": "Cuscuz doce com coco",
+      "descricao": "Perfeito para o café da manhã.",
+      "conteudo": "Ingredientes:\n- 250 g de farinha de milho em flocos\n- 100 g de coco fresco ralado\n- 3 colheres de açúcar\n- 1/2 colher (chá) de sal\n- 200 ml de leite de coco\n- 150 ml de água\n\nModo de preparo:\n1. Misture os ingredientes secos.\n2. Acrescente o leite de coco e água aos poucos até formar uma farofa úmida.\n3. Deixe descansar por 20 minutos.\n4. Coloque no cuscuzeiro e cozinhe por 10-15 minutos.\n5. Sirva quente com leite ou leite de coco.",
+      "categoria": "Doces",
+      "data": "2025-03-28",
+      "imagem": "assets/img/cuzcuz.jpg"
+    },
+    {
+      "id": "8",
+      "titulo": "Biscoito amanteigado",
+      "descricao": "Gostoso e sequinho.",
+      "conteudo": "Ingredientes:\n- 250 g de amido de milho\n- 1/2 lata de leite condensado\n- 2 colheres (sopa) de margarina\n\nModo de preparo:\n1. Pré-aqueça o forno a 180°C.\n2. Misture todos os ingredientes até obter uma massa homogênea.\n3. Modele os biscoitos e coloque em assadeira forrada com papel manteiga.\n4. Asse por 20-25 minutos até o fundo dourar.\n5. Espere esfriar antes de guardar.",
+      "categoria": "Doces",
+      "data": "2025-03-28",
+      "imagem": "assets/img/biscoito.jpg"
+    },
+    {
+      "id": "6493",
+      "titulo": "Chocolate Quente",
+      "descricao": "ola",
+      "imagem": "",
+      "categoria": "Doces"
     }
   ]
 }
