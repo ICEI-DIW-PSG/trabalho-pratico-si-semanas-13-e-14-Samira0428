@@ -9,15 +9,20 @@ Sugerimos o uso das seguintes ferramentas acessíveis: [FullCalendar](https://fu
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Samira Vitoria da Silva Fraga
+- Matricula: 1629044
+- Proposta de projeto escolhida: Culinária
+- Breve descrição sobre seu projeto: Este projeto tem como objetivo criar uma aplicação web completa para gerenciamento de informações, incluindo cadastro, listagem, edição e exclusão de registros de forma simples e intuitiva.
+A aplicação utiliza HTML, CSS, JavaScript e o JSON Server como API REST para realizar todas as operações de CRUD (Create, Read, Update, Delete).
+
+Além da gestão de dados, o projeto inclui uma página de apresentação dinâmica, onde é possível visualizar informações tratadas e organizadas por meio de gráficos interativos.
+Para isso, foi utilizada a biblioteca Chart.js, permitindo que os dados cadastrados sejam convertidos automaticamente em visualizações claras e informativas.
 
 **Print da tela com a implementação**
 
-<< Coloque aqui uma breve explicação da implementação feita nessa etapa>>
+Nesta etapa foi criada a página de apresentação dinâmica, que utiliza a biblioteca Chart.js para gerar um gráfico interativo a partir dos dados cadastrados no JSON Server.
+O gráfico é atualizado automaticamente conforme novas receitas são adicionadas, editadas ou removidas, permitindo uma visualização simples e clara das informações.
 
-<<  COLOQUE A IMAGEM TELA 1 AQUI >>
+![implementação](/public/assets/img/tela1.png)
 
-<<  COLOQUE A IMAGEM TELA 2 AQUI >>
+![implementação](/public/assets/img/tela2.png)
